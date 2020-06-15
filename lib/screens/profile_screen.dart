@@ -17,7 +17,10 @@ class ProfileScreen extends StatelessWidget {
           backgroundColor: Colors.deepOrange,
         ),
         body: Center(
-          child: Text('User profile...'),
+          child: FlatButton(child: Text('Sign Out'), onPressed: () async {
+            await auth.signOut();
+            Navigator.of(context).pushNamedAndRemoveUntil('/', (route) => false);
+          },),
         ),
       );
     } else {
