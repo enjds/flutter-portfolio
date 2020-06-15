@@ -24,7 +24,10 @@ class TopicItem extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                Image.asset('assets/covers/${topic.img}', fit: BoxFit.contain),
+                Expanded(
+                  child: Image.asset('assets/covers/${topic.img}',
+                      fit: BoxFit.cover),
+                ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
@@ -41,11 +44,11 @@ class TopicItem extends StatelessWidget {
                     )
                   ],
                 ),
-               // TODO: Implement user progress on specific topic
+                // TODO: Implement user progress on specific topic
               ],
             ),
           ),
-        )
+        ),
       ),
     );
   }
