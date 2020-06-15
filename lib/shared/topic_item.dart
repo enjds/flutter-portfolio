@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:quiz_app/constants.dart';
 import 'package:quiz_app/models/models.dart';
+import 'package:quiz_app/screens/screens.dart';
 
 class TopicItem extends StatelessWidget {
   final Topic topic;
@@ -23,7 +24,7 @@ class TopicItem extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                Image.asset('assets/cover/${topic.img}', fit: BoxFit.contain),
+                Image.asset('assets/covers/${topic.img}', fit: BoxFit.contain),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
@@ -40,7 +41,7 @@ class TopicItem extends StatelessWidget {
                     )
                   ],
                 ),
-                TopicProgress(topic: topic)
+               // TODO: Implement user progress on specific topic
               ],
             ),
           ),
