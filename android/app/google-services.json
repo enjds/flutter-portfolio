@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "818075503035",
+    "firebase_url": "https://quiz-app-df90e.firebaseio.com",
+    "project_id": "quiz-app-df90e",
+    "storage_bucket": "quiz-app-df90e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818075503035:android:a54433553d4dc8a7",
+        "android_client_info": {
+          "package_name": "com.flutter.portfolio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818075503035-ou2brmrlvu6sab8pfosoi3tjdnt8dgj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutter.portfolio",
+            "certificate_hash": "73363a9642d6eac34cbb575510f542b24522d7a7"
+          }
+        },
+        {
+          "client_id": "818075503035-o1vrv10ih38nfpsihs5aivlluu8a095h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0J1zMsdcy5eoioxE7Zq3wHNraCnazaw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818075503035-o1vrv10ih38nfpsihs5aivlluu8a095h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "818075503035-v3oceg2l1hf884781mn8nr5ubu06u553.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutter.portfolio"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
